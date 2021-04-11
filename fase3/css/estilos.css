@@ -1,0 +1,43 @@
+.contenedorheader{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#Logo{
+    grid-column: 1/2;
+}
+header{
+    height: 80px;
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(0, 101, 168);
+    font-size: 21px;
+    font-style: italic;
+    text-align: center;
+    grid-column: 2/5;
+}
+  
+nav{
+    background-color: rgb(255, 153, 0);
+    color: honeydew;
+    padding: 5px;
+}
+.contenedor{
+    display:flex;
+}
+section{
+    flex: 60%;
+    background-color:white;
+    color: black;
+    padding: 0px;
+    margin: 5px;
+    
+}
+aside{
+    flex: 40%;
+    background-color: white;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(255, 153, 0);
+    text-align: center;
+    padding: 10px;
+}
